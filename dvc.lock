@@ -7,17 +7,17 @@ trainme:
   params:
     params.yaml:
       dense: 512
-      dropout: 0.2
+      dropout: 0.5
       epochs: 7
       log_file: plots.csv
   outs:
   - path: logs
-    md5: d8aa414e03bb68a7822372f37350735f.dir
-    size: 161670
+    md5: 98da918bb43c99a31e3a26127da6a9ba.dir
+    size: 162414
     nfiles: 10
   - path: plots.csv
-    md5: b33b45eeb76e21f7f302cefac972a262
-    size: 607
+    md5: 60704dccd51028e88a4fc719f7e6a102
+    size: 609
   - path: summary.json
-    md5: a8465550b6cc06d601efddf7fdad6e2d
-    size: 122
+    md5: 9ba9bdd2666053cd654491c2e032a401
+    size: 123
