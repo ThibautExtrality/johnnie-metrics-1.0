@@ -3,16 +3,21 @@ trainme:
   deps:
   - path: users.csv
     md5: 5febbef14389ebcfc3e501fa1091adcb
+    size: 10
   params:
     params.yaml:
       dense: 512
-      dropout: 0.1
+      dropout: 0.2
       epochs: 7
       log_file: plots.csv
   outs:
   - path: logs
-    md5: 7627d2d46335b49a86975f77d0c5e48e.dir
+    md5: d8aa414e03bb68a7822372f37350735f.dir
+    size: 161670
+    nfiles: 10
   - path: plots.csv
-    md5: 193ec036cfa9225e8b0c8392a06ccae2
+    md5: b33b45eeb76e21f7f302cefac972a262
+    size: 607
   - path: summary.json
-    md5: 97c1300f1578a90aa653cbc89cf304ad
+    md5: a8465550b6cc06d601efddf7fdad6e2d
+    size: 122
