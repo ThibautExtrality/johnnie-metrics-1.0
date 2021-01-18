@@ -18,3 +18,7 @@ with open("plots.csv") as f_in:
 with open("plots.csv") as f_in:
     with open("pipelines/p2/plots_2.csv", "w") as f_out:
         f_out.write(f_in.read())
+
+with open("plots.csv") as f_in:
+    with open("pipelines/p2/plots_3.csv", "w") as f_out:
+        f_out.write(f_in.read())

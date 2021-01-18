@@ -2,13 +2,16 @@ trainme:
   cmd: python scripts/fake_train_p2.py
   deps:
   - path: scripts/fake_train_p2.py
-    md5: a883852c91cc24564818d7f1d06b4e30
-    size: 615
+    md5: b28147c6703c72a8bd07ebabb336f052
+    size: 738
   outs:
   - path: pipelines/p2/plots.csv
     md5: 50e2a94d1d6f464288139cd48fa160fd
     size: 762
   - path: pipelines/p2/plots_2.csv
+    md5: 50e2a94d1d6f464288139cd48fa160fd
+    size: 762
+  - path: pipelines/p2/plots_3.csv
     md5: 50e2a94d1d6f464288139cd48fa160fd
     size: 762
   - path: pipelines/p2/summary.json
