@@ -1,0 +1,15 @@
+stages:
+  trainme:
+    wdir: ../..
+    cmd: python scripts/fake_train_p2.py
+    deps:
+      - scripts/fake_train_p2.py
+    metrics:
+      - pipelines/p2/summary.json:
+          cache: false
+    plots:
+      - pipelines/p2/plots.csv:
+          cache: false
+          y: accuracy
+          x_label: epoch
+          title: Accuracy
