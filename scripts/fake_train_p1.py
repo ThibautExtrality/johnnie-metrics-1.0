@@ -8,7 +8,7 @@ with open("summary.json") as f_in:
             "link"
         ] = "https://github.com/Extrality/extrality-production-ml/pulls?q=is%3Apr+is%3Aclosed"
         data["toto"] = "test"
-        data["yolo"] = 18
+        data["yolo"] = 11
         json.dump(data, f_out)
 
 with open("plots.csv") as f_in:
