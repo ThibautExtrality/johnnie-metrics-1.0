@@ -18,3 +18,8 @@ stages:
           y: val_accuracy
           x_label: epoch
           title: val Accuracy
+      - pipelines/p2/plots_3.csv:
+          cache: false
+          y: val_loss
+          x_label: epoch
+          title: val LOSS
