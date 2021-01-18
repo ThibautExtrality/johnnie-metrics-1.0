@@ -13,3 +13,8 @@ stages:
           y: accuracy
           x_label: epoch
           title: Accuracy
+      - pipelines/p2/plots.csv:
+          cache: false
+          y: val_accuracy
+          x_label: epoch
+          title: val Accuracy
